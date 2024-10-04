@@ -13,8 +13,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Shopping List",
-  description: "A shopping list in React",
+  title: "CPRG 306: Web Development 2",
+  description: "CPRG 306: Web Development 2 - Assignments",
 };
 
 export default function RootLayout({ children }) {
