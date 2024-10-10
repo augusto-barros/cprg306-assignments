@@ -38,7 +38,7 @@ export default function NewItem() {
             </div>
         <div className="mt-5">
             <button 
-            className="px-4 py-2 m-auto text-white bg-blue-500 rounded hover:bg-blue-600 mt-10 flex flex-col items-center mb-10"
+        className="absolute top-5 left-5 px-4 py-2 text-white rounded hover:bg-blue-600"
             onClick={() => window.location.href = './'}>
             Back to Home
       </button>
