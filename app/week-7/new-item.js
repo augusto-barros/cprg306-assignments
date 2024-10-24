@@ -83,15 +83,6 @@ export default function NewItem({onAddItem}) {
                 <button type="submit" className={btnStyle}>Add new item</button>
     
             </form>
-
-        <div className="mt-5">
-        <button 
-        className="absolute top-5 left-5 px-4 py-2 text-white rounded hover:bg-blue-600"
-        onClick={() => window.location.href = './'}>
-        Back to Home
-        </button>
-        </div>
-
         </div>
     );
 }
