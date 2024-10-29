@@ -76,8 +76,8 @@ export default function NewItem({onAddItem}) {
                 </div>
     
                 <div className='flex justify-center'>
-                    <button className={btnStyle} onClick={decrement} disabled={decrementDisable}>-</button>
-                    <button className={btnStyle} onClick={increment} disabled={incrementDisable}>+</button>
+                    <button type='button' className={btnStyle} onClick={decrement} disabled={decrementDisable}>-</button>
+                    <button type='button' className={btnStyle} onClick={increment} disabled={incrementDisable}>+</button>
                 </div>
 
                 <button type="submit" className={btnStyle}>Add new item</button>
