@@ -45,7 +45,7 @@ return (
                         <button
                             className="w-full bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-5">
                             <Link 
-                            href="app\week-8\page.js">Go to Shopping List</Link>
+                            href=".\week-8">Go to Shopping List</Link>
                         </button>
                         <button
                             type="button"
