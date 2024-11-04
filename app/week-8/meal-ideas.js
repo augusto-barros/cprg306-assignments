@@ -31,7 +31,7 @@ export default function MealIdeas({ ingredient }) {
   };
 
   return (
-    <div className="bg-blue-700 rounded-lg p-4">
+    <div className="bg-blue-700 rounded-lg p-4 mb-5">
       <h2 className="text-lg font-bold mb-4">Meal Ideas</h2>
       {ingredient && <p className="mb-4 font-bold">Here are some meal ideas using {ingredient}:</p>}
       <ul className="space-y-6">
