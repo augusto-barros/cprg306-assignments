@@ -30,6 +30,9 @@ export default function Page() {
         <li>
           <Link href="week-9" className="text-pink-300 hover:text-pink-500">Week 9</Link>
         </li>
+        <li>
+          <Link href="week-10" className="text-pink-300 hover:text-pink-500">Week 10</Link>
+        </li>
       </ul>
     </main>
   );
